@@ -5,20 +5,18 @@ import timeIcon from '../../public/assets/time.svg';
 
 const UpcomingDrops = () => {
     return (
-        <section className="p-8 bg-white">
+        <section className="p-4 md:p-8 bg-white">
             <h2 className="text-start text-2xl mb-4">Upcoming Drops</h2>
-            <div className="flex flex-row justify-stretch">
-                <div className="w-full pr-2">
+            <div className="flex flex-col md:flex-row justify-stretch">
+                <div className="w-full mb-4 md:mb-0 md:pr-2">
                     <div className="w-full rounded-3xl overflow-hidden shadow-lg">
                         <Image src={third} alt='Space Cowboys' layout="responsive" />
-                        
                     </div>
                     <div className="flex justify-between items-center bg-white px-4 py-2">
                         <div className="flex flex-col items-start pb-1">
-                            {/* Clock Icon */}
                             <span className="text-gray-400 font-bold text-xl">Space Cowboys</span>
                             <div className='flex flex-row w-fit justify-center items-center'>
-                                <Image src={timeIcon} alt="Dollar Icon" />
+                                <Image src={timeIcon} alt="Time Icon" />
                                 <span className="text-black text-sm pl-1 font-semibold">30 MIN</span>
                             </div>
                         </div>
@@ -32,17 +30,15 @@ const UpcomingDrops = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full pl-2">
+                <div className="w-full md:pl-2">
                     <div className="w-full rounded-3xl overflow-hidden shadow-lg">
                         <Image src={fourth} alt='On Chain Orcs' layout="responsive" />
-                        
                     </div>
                     <div className="flex justify-between items-center bg-white px-4 py-2">
                         <div className="flex flex-col items-start pb-1">
-                            {/* Clock Icon */}
                             <span className="text-gray-400 font-bold text-xl">On Chain Orcs</span>
                             <div className='flex flex-row w-fit justify-center items-center'>
-                                <Image src={timeIcon} alt="Dollar Icon" />
+                                <Image src={timeIcon} alt="Time Icon" />
                                 <span className="text-black text-xs pl-1 font-semibold">3 DAYS</span>
                             </div>
                         </div>
