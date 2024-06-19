@@ -36,7 +36,7 @@ const Footer = () => {
                                 </button>
                             </div>
                         </div>
-                        <h1 className="text-xl sm:text-5xl font-bold py-4">
+                        <h1 className="text-xl sm:text-7xl font-bold py-4">
                             <span className="text-black">Unlock </span>
                             <span className="text-gray-500">Gaming Usability</span>
                         </h1>
@@ -44,7 +44,7 @@ const Footer = () => {
                     </div>
                     <div className="flex flex-col sm:flex-row items-center justify-between py-2">
                         <div>
-                            <h2 className="font-bold text-lg">$STYLE Contracts</h2>
+                            <h2 className="font-bold text-xl sm:text-3xl text-gray-400 py-4">$STYLE Contracts</h2>
                             <div className="flex flex-wrap gap-2">
                                 <div className='flex items-center justify-between py-2 border-l-2 border-r-2 border-gray-300 text-black font-semibold px-4 rounded-3xl hover:bg-gray-100'>
                                     <span>On ERC20</span>
@@ -63,19 +63,19 @@ const Footer = () => {
                         <div className="flex flex-wrap items-center gap-4 mt-4 sm:mt-0">
 
                             <button
-                                className={`flex items-center space-x-2 ${selectedPlatform === 'Uniswap' ? 'bg-gray-300' : ''} p-4`}
+                                className={`flex items-center space-x-2 ${selectedPlatform === 'Uniswap' ? 'bg-gray-300' : ''} py-10`}
                                 onClick={() => setSelectedPlatform('Uniswap')}
                             >
                                 <Image src={uniswapLogo} alt={'Uniswap'} />
                             </button>
                             <button
-                                className={`flex items-center space-x-2 ${selectedPlatform === 'MEXC' ? 'bg-gray-300' : ''} p-4`}
+                                className={`flex items-center space-x-2 ${selectedPlatform === 'MEXC' ? 'bg-gray-300' : ''} py-10`}
                                 onClick={() => setSelectedPlatform('MEXC')}
                             >
                                 <Image src={mexcLogo} alt={'MEXC'} />
                             </button>
                             <button
-                                className={`flex items-center space-x-2 ${selectedPlatform === 'Bitget' ? 'bg-gray-300' : ''} p-4`}
+                                className={`flex items-center space-x-2 ${selectedPlatform === 'Bitget' ? 'bg-gray-300' : ''} py-10`}
                                 onClick={() => setSelectedPlatform('Bitget')}
                             >
                                 <Image src={bitgetLogo} alt={'Bitget'} />

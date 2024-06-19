@@ -29,7 +29,7 @@ const TiersSection = () => {
                             </div>
                         </div>
                         <div className="flex-1 rounded-b-3xl md:rounded-b-none md:rounded-r-3xl bg-gray-100 p-4 md:p-10">
-                            <p className="pt-4 text-gray-800 font-bold">Get access to <span className='text-gray-500'>nft-collections</span> with usability in games. Every nft-collection will be <span className='text-gray-500'>usable for playing.</span></p>
+                            <p className="text-lg md:text-2xl pt-4 text-gray-800 font-bold">Get access to <span className='text-gray-500'>nft-collections</span> with usability in games. Every nft-collection will be <span className='text-gray-500'>usable for playing.</span></p>
                         </div>
                     </div>
                 );
@@ -89,26 +89,26 @@ const TiersSection = () => {
 
     return (
         <section className="p-4 md:px-20 bg-white text-center">
-            <h2 className="text-xl md:text-5xl mb-4">
+            <h2 className="text-xl md:text-7xl mb-4">
                 <span className="font-semibold">Stake</span> <span className="font-bold text-gray-400">$STYLE</span>
             </h2>
-            <p className=" text-gray-400 font-semibold">Join a gaming ecosystem for usability of assets</p>
+            <p className="text-xl md:text-3xl text-gray-400 font-semibold">Join a gaming ecosystem for usability of assets</p>
             <div className="flex justify-center items-center">
-                <div className="flex justify-center items-center w-full md:w-fit border rounded-full border-gray-500 mt-2 mb-6">
+                <div className="flex justify-center items-center w-full md:w-fit border rounded-full border-gray-500 mt-5 mb-10">
                     <button
-                        className={`text-sm rounded-full m-1 py-1 px-4 ${activeTab === 'Tier One' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
+                        className={`text-sm md:text-lg rounded-full m-1 py-1 px-4 ${activeTab === 'Tier One' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
                         onClick={() => setActiveTab('Tier One')}
                     >
                         Tier One
                     </button>
                     <button
-                        className={`text-sm rounded-full m-1 py-1 px-4 ${activeTab === 'Tier Two' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
+                        className={`text-sm md:text-lg rounded-full m-1 py-1 px-4 ${activeTab === 'Tier Two' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
                         onClick={() => setActiveTab('Tier Two')}
                     >
                         Tier Two
                     </button>
                     <button
-                        className={`text-sm rounded-full m-1 py-1 px-4 ${activeTab === 'Tier Three' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
+                        className={`text-sm md:text-lg rounded-full m-1 py-1 px-4 ${activeTab === 'Tier Three' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
                         onClick={() => setActiveTab('Tier Three')}
                     >
                         Tier Three

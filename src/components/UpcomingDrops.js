@@ -14,8 +14,8 @@ const UpcomingDrops = () => {
                     </div>
                     <div className="flex justify-between items-center bg-white px-4 py-2">
                         <div className="flex flex-col items-start pb-1">
-                            <span className="text-gray-400 font-bold text-xl">Space Cowboys</span>
-                            <div className='flex flex-row w-fit justify-center items-center'>
+                            <span className="text-xl md:text-3xl text-gray-400 font-bold ">Space Cowboys</span>
+                            <div className='flex flex-row w-fit justify-center items-center pt-2'>
                                 <Image src={timeIcon} alt="Time Icon" />
                                 <span className="text-black text-sm pl-1 font-semibold">30 MIN</span>
                             </div>
@@ -36,8 +36,8 @@ const UpcomingDrops = () => {
                     </div>
                     <div className="flex justify-between items-center bg-white px-4 py-2">
                         <div className="flex flex-col items-start pb-1">
-                            <span className="text-gray-400 font-bold text-xl">On Chain Orcs</span>
-                            <div className='flex flex-row w-fit justify-center items-center'>
+                            <span className="text-xl md:text-3xl text-gray-400 font-bold ">On Chain Orcs</span>
+                            <div className='flex flex-row w-fit justify-center items-center pt-2'>
                                 <Image src={timeIcon} alt="Time Icon" />
                                 <span className="text-black text-xs pl-1 font-semibold">3 DAYS</span>
                             </div>
