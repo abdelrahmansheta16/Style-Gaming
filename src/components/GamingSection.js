@@ -21,8 +21,8 @@ const GamingCreator = () => {
     };
 
     return (
-        <div className='flex flex-row justify-center items-center bg-white'>
-            <div className="flex-3 relative w-full h-screen flex items-center justify-center">
+        <div className='flex flex-col md:flex-row justify-center items-center bg-white'>
+            <div className="relative w-full h-64 md:h-screen md:flex-3 flex items-center justify-center">
                 <Image
                     src={gamingCreatorImage}
                     alt="Text to gaming creator"
@@ -34,20 +34,20 @@ const GamingCreator = () => {
                     {isLoading ? (
                         <div className="loader"></div> // Placeholder for a loading spinner
                     ) : (
-                        <div className="flex flex-col justify-center items-center p-4 rounded">
+                        <div className="flex flex-col justify-center items-center p-4 ">
                             <Image src={chatIcon} alt='chat' />
-                            <button className="bg-gray-200 bg-opacity-40 text-white py-2 px-4 flex items-center justify-center rounded-full">
+                            <button className="bg-gray-200 bg-opacity-50 text-white py-2 px-4 flex items-center justify-center rounded-full mt-4">
                                 <span className='pr-2'>Try now</span>
-                                <Image src={headToIcon} alt='head to' />
+                                <Image src={headToIcon} alt='head to' width={20} height={20} />
                             </button>
                         </div>
                     )}
                 </div>
             </div>
-            <div className='px-10'>
-                <div onClick={(e) => handleNavigation(e, "/TextToNFT")}>
-                    <Image src={gamingBox} alt='Gaming Box' />
-                </div>
+            <div className='flex justify-center items-center p-4 md:px-10 w-full md:w-auto'>
+                <a onClick={(e) => handleNavigation(e, "/TextToNFT")}>
+                    <Image src={gamingBox} alt='Gaming Box' layout="intrinsic" />
+                </a>
             </div>
         </div>
     );

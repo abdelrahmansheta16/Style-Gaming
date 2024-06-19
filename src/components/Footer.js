@@ -22,7 +22,7 @@ const Footer = () => {
         <footer className="bg-gray-200 px-4 sm:px-14 pt-10 pb-4">
             <div className="bg-white pt-5 border rounded-t-xl">
                 <div className="max-w-7xl mx-auto px-4 sm:px-12">
-                    <div className="flex flex-col sm:flex-row items-center sm:items-start">
+                    <div className="flex flex-col sm:flex-col items-center sm:items-start">
                         <div className="flex-1">
                             <div className="bg-gray-200 flex items-center justify-between rounded-full px-4 py-1">
                                 <span className="text-gray-800 text-xs font-semibold px-4">
@@ -36,7 +36,7 @@ const Footer = () => {
                                 </button>
                             </div>
                         </div>
-                        <h1 className="text-xl sm:text-4xl font-bold py-4">
+                        <h1 className="text-xl sm:text-5xl font-bold py-4">
                             <span className="text-black">Unlock </span>
                             <span className="text-gray-500">Gaming Usability</span>
                         </h1>
