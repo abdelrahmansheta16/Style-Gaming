@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import TiersSection from '@/components/TiersSection';
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(false);
 
   // Function to handle navigation/loading triggered from child components
   const handleLoading = (isLoading) => {
