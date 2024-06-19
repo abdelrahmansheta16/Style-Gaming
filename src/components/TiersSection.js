@@ -12,66 +12,72 @@ const TiersSection = () => {
             case 'Tier One':
                 return (
                     <div className="max-w-4xl mx-auto bg-white rounded-3xl border border-gray-500 flex flex-col md:flex-row">
-                        <div className="flex flex-col justify-start items-start border-b md:border-b-0 md:border-r border-gray-500 p-4 md:p-10">
-                            <h2 className="text-lg font-bold text-gray-500">TIER 1</h2>
-                            <h3 className="text-4xl font-bold py-4">The NFT Tier!</h3>
-                            <div className="flex flex-col md:flex-row">
-                                <div className='flex pr-2 items-center mb-2 md:mb-0'>
-                                    <Image src={dollarIcon} alt="Dollar Icon" />
-                                    <p className="text-gray-600 ml-2">1,000 $STYLE</p>
-                                </div>
-                                <div className='flex items-center'>
-                                    <Image src={timeIcon} alt="Time Icon"  />
-                                    <p className="text-gray-600 ml-2">LOCKED 1 MONTH</p>
+                        <div className="flex-1 border-b md:border-b-0 md:border-r border-gray-500 p-4 md:p-10">
+                            <div className='flex flex-col justify-start items-start'>
+                                <h2 className="text-lg font-bold text-gray-500">TIER 1</h2>
+                                <h3 className="text-4xl font-bold py-4">The NFT Tier!</h3>
+                                <div className="flex flex-col md:flex-row">
+                                    <div className='flex pr-2 items-center mb-2 md:mb-0'>
+                                        <Image src={dollarIcon} alt="Dollar Icon" />
+                                        <p className="text-gray-600 ml-2">1,000 $STYLE</p>
+                                    </div>
+                                    <div className='flex items-center'>
+                                        <Image src={timeIcon} alt="Time Icon" />
+                                        <p className="text-gray-600 ml-2">LOCKED 1 MONTH</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="flex-1 rounded-b-3xl md:rounded-b-none md:rounded-r-3xl bg-gray-100 p-4 md:p-10">
-                            <p className="text-gray-800 font-bold">Get access to <span className='text-gray-500'>nft-collections</span> with usability in games. Every nft-collection will be <span className='text-gray-500'>usable for playing.</span></p>
+                            <p className="pt-4 text-gray-800 font-bold">Get access to <span className='text-gray-500'>nft-collections</span> with usability in games. Every nft-collection will be <span className='text-gray-500'>usable for playing.</span></p>
                         </div>
                     </div>
                 );
             case 'Tier Two':
                 return (
                     <div className="max-w-4xl mx-auto bg-white rounded-3xl border border-gray-500 flex flex-col md:flex-row">
-                        <div className="flex flex-col justify-start items-start border-b md:border-b-0 md:border-r border-gray-500 p-4 md:p-10">
-                            <h2 className="text-lg font-bold text-gray-500">TIER 1</h2>
-                            <h3 className="text-4xl font-bold py-4">The NFT Tier!</h3>
-                            <div className="flex flex-col md:flex-row">
-                                <div className='flex pr-2 items-center mb-2 md:mb-0'>
-                                    <Image src={dollarIcon} alt="Dollar Icon" />
-                                    <p className="text-gray-600 ml-2">1,000 $STYLE</p>
-                                </div>
-                                <div className='flex items-center'>
-                                    <Image src={timeIcon} alt="Time Icon" />
-                                    <p className="text-gray-600 ml-2">LOCKED 1 MONTH</p>
+                        <div className="flex-1 border-b md:border-b-0 md:border-r border-gray-500 p-4 md:p-10">
+                            <div className='flex flex-col justify-start items-start'>
+                                <h2 className="text-lg font-bold text-gray-500">TIER 1</h2>
+                                <h3 className="text-4xl font-bold py-4">The NFT Tier!</h3>
+                                <div className="flex flex-col md:flex-row">
+                                    <div className='flex pr-2 items-center mb-2 md:mb-0'>
+                                        <Image src={dollarIcon} alt="Dollar Icon" />
+                                        <p className="text-gray-600 ml-2">1,000 $STYLE</p>
+                                    </div>
+                                    <div className='flex items-center'>
+                                        <Image src={timeIcon} alt="Time Icon" />
+                                        <p className="text-gray-600 ml-2">LOCKED 1 MONTH</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="flex-1 rounded-b-3xl md:rounded-b-none md:rounded-r-3xl bg-gray-100 p-4 md:p-10">
-                            <p className="text-gray-800 font-bold">Get access to <span className='text-gray-500'>nft-collections</span> with usability in games. Every nft-collection will be <span className='text-gray-500'>usable for playing.</span></p>
+                            <p className="pt-4 text-gray-800 font-bold">Get access to <span className='text-gray-500'>nft-collections</span> with usability in games. Every nft-collection will be <span className='text-gray-500'>usable for playing.</span></p>
                         </div>
                     </div>
                 );
             case 'Tier Three':
                 return (
                     <div className="max-w-4xl mx-auto bg-white rounded-3xl border border-gray-500 flex flex-col md:flex-row">
-                        <div className="flex flex-col justify-start items-start border-b md:border-b-0 md:border-r border-gray-500 p-4 md:p-10">
-                            <h2 className="text-lg font-bold text-gray-500">TIER 1</h2>
-                            <h3 className="text-4xl font-bold py-4">The NFT Tier!</h3>
-                            <div className="flex flex-col md:flex-row">
-                                <div className='flex pr-2 items-center mb-2 md:mb-0'>
-                                    <Image src={dollarIcon} alt="Dollar Icon" />
-                                    <p className="text-gray-600 ml-2">1,000 $STYLE</p>
-                                </div>
-                                <div className='flex items-center'>
-                                    <Image src={timeIcon} alt="Time Icon" />
-                                    <p className="text-gray-600 ml-2">LOCKED 1 MONTH</p>
+                        <div className="flex-1 border-b md:border-b-0 md:border-r border-gray-500 p-4 md:p-10">
+                            <div className='flex flex-col justify-start items-start'>
+                                <h2 className="text-lg font-bold text-gray-500">TIER 1</h2>
+                                <h3 className="text-4xl font-bold py-4">The NFT Tier!</h3>
+                                <div className="flex flex-col md:flex-row">
+                                    <div className='flex pr-2 items-center mb-2 md:mb-0'>
+                                        <Image src={dollarIcon} alt="Dollar Icon" />
+                                        <p className="text-gray-600 ml-2">1,000 $STYLE</p>
+                                    </div>
+                                    <div className='flex items-center'>
+                                        <Image src={timeIcon} alt="Time Icon" />
+                                        <p className="text-gray-600 ml-2">LOCKED 1 MONTH</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="flex-1 rounded-b-3xl md:rounded-b-none md:rounded-r-3xl bg-gray-100 p-4 md:p-10">
-                            <p className="text-gray-800 font-bold">Get access to <span className='text-gray-500'>nft-collections</span> with usability in games. Every nft-collection will be <span className='text-gray-500'>usable for playing.</span></p>
+                            <p className="pt-4 text-gray-800 font-bold">Get access to <span className='text-gray-500'>nft-collections</span> with usability in games. Every nft-collection will be <span className='text-gray-500'>usable for playing.</span></p>
                         </div>
                     </div>
                 );
