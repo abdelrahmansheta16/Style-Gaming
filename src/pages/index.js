@@ -6,11 +6,12 @@ import TiersSection from '@/components/TiersSection'
 
 export default function Home() {
   return (
-    <div>
-      
+    <div >
       <MainSection />
-      <TiersSection />
-      <UpcomingDrops />
+      <div className='p-4 md:p-13 bg-white'>
+        <TiersSection />
+        <UpcomingDrops />
+      </div>
       <Footer />
     </div>
   )

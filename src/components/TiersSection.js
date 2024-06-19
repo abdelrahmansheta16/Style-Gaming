@@ -11,19 +11,19 @@ const TiersSection = () => {
         switch (activeTab) {
             case 'Tier One':
                 return (
-                    <div className="max-w-4xl mx-auto bg-white rounded-3xl border border-gray-500 flex flex-col md:flex-row">
-                        <div className="flex-1 border-b md:border-b-0 md:border-r border-gray-500 p-4 md:p-10">
+                    <div className=" bg-white rounded-3xl border border-gray-200 flex flex-col md:flex-row">
+                        <div className="flex-1 border-b md:border-b-0 md:border-r border-gray-200 p-4 md:p-10">
                             <div className='flex flex-col justify-start items-start'>
-                                <h2 className="text-lg font-bold text-gray-500">TIER 1</h2>
-                                <h3 className="text-4xl font-bold py-4">The NFT Tier!</h3>
+                                <h2 className="text-2xl font-bold text-gray-400">TIER 1</h2>
+                                <h3 className="text-5xl font-bold py-2">The NFT Tier!</h3>
                                 <div className="flex flex-col md:flex-row">
-                                    <div className='flex pr-2 items-center mb-2 md:mb-0'>
+                                    <div className='flex pr-12 items-center mb-2 md:mb-0'>
                                         <Image src={dollarIcon} alt="Dollar Icon" />
-                                        <p className="text-gray-600 ml-2">1,000 $STYLE</p>
+                                        <p className="text-xs text-black font-semibold ml-1">1,000 $STYLE</p>
                                     </div>
                                     <div className='flex items-center'>
                                         <Image src={timeIcon} alt="Time Icon" />
-                                        <p className="text-gray-600 ml-2">LOCKED 1 MONTH</p>
+                                        <p className="text-xs text-black font-semibold ml-1">LOCKED 1 MONTH</p>
                                     </div>
                                 </div>
                             </div>
@@ -35,7 +35,7 @@ const TiersSection = () => {
                 );
             case 'Tier Two':
                 return (
-                    <div className="max-w-4xl mx-auto bg-white rounded-3xl border border-gray-500 flex flex-col md:flex-row">
+                    <div className=" bg-white rounded-3xl border border-gray-500 flex flex-col md:flex-row">
                         <div className="flex-1 border-b md:border-b-0 md:border-r border-gray-500 p-4 md:p-10">
                             <div className='flex flex-col justify-start items-start'>
                                 <h2 className="text-lg font-bold text-gray-500">TIER 1</h2>
@@ -59,7 +59,7 @@ const TiersSection = () => {
                 );
             case 'Tier Three':
                 return (
-                    <div className="max-w-4xl mx-auto bg-white rounded-3xl border border-gray-500 flex flex-col md:flex-row">
+                    <div className=" bg-white rounded-3xl border border-gray-500 flex flex-col md:flex-row">
                         <div className="flex-1 border-b md:border-b-0 md:border-r border-gray-500 p-4 md:p-10">
                             <div className='flex flex-col justify-start items-start'>
                                 <h2 className="text-lg font-bold text-gray-500">TIER 1</h2>
@@ -88,27 +88,27 @@ const TiersSection = () => {
     };
 
     return (
-        <section className="p-4 md:p-8 bg-white text-center">
-            <h2 className="text-xl md:text-2xl mb-4">
-                <span className="font-semibold">Stake</span> <span className="font-bold text-gray-500">$STYLE</span>
+        <section className="p-4 md:px-20 bg-white text-center">
+            <h2 className="text-xl md:text-5xl mb-4">
+                <span className="font-semibold">Stake</span> <span className="font-bold text-gray-400">$STYLE</span>
             </h2>
-            <p className="mb-4">Join a gaming ecosystem for usability of assets</p>
+            <p className=" text-gray-400 font-semibold">Join a gaming ecosystem for usability of assets</p>
             <div className="flex justify-center items-center">
-                <div className="flex justify-center items-center w-full md:w-fit border rounded-full border-gray-500 mt-4 mb-6">
+                <div className="flex justify-center items-center w-full md:w-fit border rounded-full border-gray-500 mt-2 mb-6">
                     <button
-                        className={`rounded-full m-1 py-1 px-4 ${activeTab === 'Tier One' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
+                        className={`text-sm rounded-full m-1 py-1 px-4 ${activeTab === 'Tier One' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
                         onClick={() => setActiveTab('Tier One')}
                     >
                         Tier One
                     </button>
                     <button
-                        className={`rounded-full m-1 py-1 px-4 ${activeTab === 'Tier Two' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
+                        className={`text-sm rounded-full m-1 py-1 px-4 ${activeTab === 'Tier Two' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
                         onClick={() => setActiveTab('Tier Two')}
                     >
                         Tier Two
                     </button>
                     <button
-                        className={`rounded-full m-1 py-1 px-4 ${activeTab === 'Tier Three' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
+                        className={`text-sm rounded-full m-1 py-1 px-4 ${activeTab === 'Tier Three' ? 'bg-gradient-to-r from-black to-gray-500 text-white ' : 'bg-white text-black '}`}
                         onClick={() => setActiveTab('Tier Three')}
                     >
                         Tier Three

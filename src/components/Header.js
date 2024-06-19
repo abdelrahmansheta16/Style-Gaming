@@ -10,7 +10,7 @@ const Header = () => {
     const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
     return (
-        <header className="flex justify-between items-center py-2 px-4 sm:px-6 bg-white shadow-md">
+        <header className="flex justify-between items-center py-2 px-4 sm:px-20 bg-white shadow-md">
             <div className="shrink-0">
                 <Image src={logo} alt="Style" />
             </div>
