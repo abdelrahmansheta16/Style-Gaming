@@ -88,7 +88,7 @@ const TiersSection = () => {
     };
 
     return (
-        <section className="p-4 md:px-20 bg-white text-center">
+        <section className="p-4 md:px-28 bg-white text-center">
             <h2 className="text-xl md:text-7xl mb-4">
                 <span className="font-semibold">Stake</span> <span className="font-bold text-gray-400">$STYLE</span>
             </h2>
