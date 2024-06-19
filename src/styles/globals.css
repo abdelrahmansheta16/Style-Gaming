@@ -34,7 +34,7 @@ body {
 }
 
 .loaderMain {
-  border-top-color: #3498db; /* Blue spinner color */
+  border-top-color: #3498db; /* Change the color to suit your design */
   -webkit-animation: spinner 1.5s linear infinite; /* Chrome, Safari, Opera */
   animation: spinner 1.5s linear infinite;
 }
