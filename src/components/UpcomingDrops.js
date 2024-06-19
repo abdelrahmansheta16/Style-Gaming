@@ -6,7 +6,7 @@ import timeIcon from '../../public/assets/time.svg';
 const UpcomingDrops = () => {
     return (
         <section className="p-4 md:px-20 bg-white">
-            <h2 className="text-start text-2xl mb-4">Upcoming Drops</h2>
+            <h2 className="text-start text-2xl mb-4 text-gray-500 font-semibold">Upcoming Drops</h2>
             <div className="flex flex-col md:flex-row justify-stretch">
                 <div className="w-full mb-4 md:mb-0 md:pr-2">
                     <div className="w-full rounded-3xl overflow-hidden shadow-lg">
