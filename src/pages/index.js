@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import TiersSection from '@/components/TiersSection';
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
   // Function to handle navigation/loading triggered from child components
   const handleLoading = (isLoading) => {
@@ -19,7 +19,7 @@ export default function Home() {
     <>
       {isLoading && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
-          <Image src={Logo} alt="Loading" />
+          <Image src={Logo} alt="Loading" height={200} />
         </div>
       )}
       <MainSection onLoading={handleLoading} />
